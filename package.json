@@ -14,8 +14,8 @@
     "args": "nodemon src/cli/args.js --name Max --age 27",
     "mjs": "nodemon src/modules/cjsToEsm.mjs",
     "calcHash": "nodemon src/hash/calcHash.js",
-    "readStream": "nodemon src/streams/read.js",
-    "writeStream": "nodemon src/streams/write.js",
+    "readStream": "node src/streams/read.js",
+    "writeStream": "node src/streams/write.js",
     "transformStream": "nodemon src/streams/transform.js",
     "compress": "nodemon src/zip/compress.js"
   },

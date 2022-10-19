@@ -1,4 +1,4 @@
-import fs, { createWriteStream } from "fs";
+import { createWriteStream } from "fs";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 
