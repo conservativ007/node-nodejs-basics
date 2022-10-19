@@ -17,7 +17,9 @@
     "readStream": "node src/streams/read.js",
     "writeStream": "node src/streams/write.js",
     "transformStream": "nodemon src/streams/transform.js",
-    "compress": "nodemon src/zip/compress.js"
+    "compress": "nodemon src/zip/compress.js",
+    "worker": "nodemon src/wt/main.js",
+    "cp": "node src/cp/files/script.js"
   },
   "repository": {
     "type": "git",
